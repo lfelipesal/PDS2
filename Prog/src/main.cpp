@@ -22,9 +22,19 @@ int main() {
             o++;
         }
     }
-    std :: cout << " a =" << a << std :: endl;
-    std :: cout << " e =" << e << std :: endl;
-    std :: cout << " i =" << i << std :: endl;
-    std :: cout << " o =" << o << std :: endl;
-    std :: cout << " u =" << u << std :: endl;
+    if (a != 0){
+        std :: cout << " a " << a << std :: endl;
+    }
+    if (e != 0){
+        std :: cout << " e " << e << std :: endl;
+    }
+    if (i != 0){
+        std :: cout << " i " << i << std :: endl;
+    }
+    if (o != 0){
+        std :: cout << " o " << o << std :: endl;
+    }
+    if (u != 0){
+        std :: cout << " u " << u << std :: endl;
+    }
 }
