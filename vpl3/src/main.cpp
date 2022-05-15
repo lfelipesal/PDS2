@@ -33,8 +33,6 @@ unsigned interval(double start, double end) {
     int inicio, total=0, fim;
     inicio = start;
     fim = end;
-    std :: cout << inicio << std :: endl;
-    std :: cout << fim << std :: endl;
     if(inicio == fim ){
         return 0;
     }
