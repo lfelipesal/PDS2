@@ -47,8 +47,7 @@ Processo ListaProcessos :: remover_processo_menor_prioridade(){
 
 Processo ListaProcessos :: remover_processo_por_id(int id){
     for(unsigned i = 0; i<list.size();i++){
-        int priori = list.at(i).getID();
-        if(priori==id){
+        if(list.at(i).getID()==id){
             Processo ret = list.at(i);
             list.erase(list.begin()+i-1);
             return ret;
