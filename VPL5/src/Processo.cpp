@@ -2,9 +2,9 @@
 #include <iostream>
 
 Processo :: Processo(int id, std::string nome, int prioridade){
-    id = id;
-    nome = nome;
-    prioridade = prioridade;
+    this->id = id;
+    this->nome = nome;
+    this->prioridade = prioridade;
 }
 
 void Processo :: imprimir_dados(){
@@ -12,13 +12,13 @@ void Processo :: imprimir_dados(){
 }
 
 int Processo :: getID(){
-    return id;
+    return this->id;
 }
 
 std::string Processo :: getNome(){
-    return nome;
+    return this->nome;
 }
 
 int Processo :: getPrioridade(){
-    return prioridade;
+    return this->prioridade;
 }
